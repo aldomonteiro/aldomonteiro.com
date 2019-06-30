@@ -1,13 +1,13 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+  url: 'https://aldomonteiro.com',
+  title: 'Aldo Monteiro',
+  subtitle: 'Personal Blog',
   copyright: '© All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
-  googleAnalyticsId: 'UA-73379983-2',
+  googleAnalyticsId: 'UA-13850116-1',
   menu: [
     {
       label: 'Articles',
@@ -23,16 +23,16 @@ module.exports = {
     }
   ],
   author: {
-    name: 'John Doe',
-    photo: '/photo.jpg',
+    name: 'Aldo Monteiro',
+    photo: '/profile-picture.jpg',
     bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
     contacts: {
-      email: '#',
+      email: 'aldomonteiro@gmail.com',
       telegram: '#',
-      twitter: '#',
-      github: '#',
+      twitter: 'aldomn',
+      github: 'aldomonteiro',
       rss: '#',
-      vkontakte: '#'
+      facebook: 'aldomnascimento'
     }
   }
 };
