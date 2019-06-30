@@ -29,10 +29,12 @@ A tecnologia era sólida, mas não sólida o suficiente para impressionar grande
 
 O cheque, feito para a Google Inc., não pode ser descontado de imediato pois a empresa só seria criada algumas semanas depois e, naquele dia, ela ainda nem possuía uma conta bancária. Mas, sem sombra de dúvida, foi esse cheque de US$ 100 mil dólares que fez a roda girar. Brin e Page iniciaram o negócio e, além desse valor, conseguiram atrair outros investidores, com um investimento inicial de cerca de US$ 1 milhão.
 
-O início da empresa, após esses investimentos, realmente foi na garagem de um amigo em Menlo Park, Califórnia. À essa época, o site do Google já estava recebendo 10.000 consultas por dia, ainda em versão beta, mas, já no ano seguinte, o Google mudou-se para um escritório de verdade em Palo Alto, viu sua equipe explodir para oito funcionários e, no final de 1999, respondia a 500 mil consultas por dia.
+O início da empresa, após esses investimentos, realmente foi na garagem de uma amiga em Menlo Park, Califórnia. À essa época, o site do Google já estava recebendo 10.000 consultas por dia, ainda em versão beta, mas, já no ano seguinte, o Google mudou-se para um escritório de verdade em Palo Alto, viu sua equipe explodir para oito funcionários e, no final de 1999, respondia a 500 mil consultas por dia.
+
+## A empresa não começou pequena, mesmo.
 
 Um crescimento tão rápido como esse não seria possível sem os grandes investimentos iniciais que a empresa obteve e se não fosse dessa maneira, toda a inovação que eles propuseram no início poderia não ter resistido a entrada de outros competidores com dinheiro que poderiam lançar ferramentas semelhantes e atingir mais usuários.
 
 A Google surgiu através de uma tecnologia muito inovadora, certamente com o trabalho árduo dos seus fundadores, mas, somente pode crescer do jeito que cresceu pois eles conseguiram atrair investidores que acreditaram no negócio e fizeram com que a tecnologia virasse uma grande empresa.
 
-Essa é a lição que deve ser tirada do caso da Google: atualmente, todo negócio para decolar precisa de várias coisas, dentre eles, muito dinheiro, pois, sem o dinheiro, não há crescimento rápido e o mercado engole quem cresce pouco.
+Essa é a lição que deve ser tirada do caso da Google: atualmente, todo negócio para decolar precisa de várias coisas, dentre eles, dinheiro, pois, sem o dinheiro, não há crescimento rápido e o mercado engole quem cresce pouco.
