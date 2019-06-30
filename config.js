@@ -25,7 +25,7 @@ module.exports = {
   author: {
     name: 'Aldo Monteiro',
     photo: '/profile-picture.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    bio: 'Building modern web apps and writing some stuff along the way.',
     contacts: {
       email: 'aldomonteiro@gmail.com',
       telegram: '#',
