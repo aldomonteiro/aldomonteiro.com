@@ -3,7 +3,7 @@ language: pt
 template: post
 title: Qual é a sua desculpa? O começo do Google
 slug: /posts/qual-e-a-sua-desculpa-o-comeco-do-google
-draft: true
+draft: false
 date: 2019-06-30T16:30:17.158Z
 description: >-
   Sergey Brin e Larry Page (co-fundadores do Google) receberam um cheque de US$
