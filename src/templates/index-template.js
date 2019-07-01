@@ -46,11 +46,11 @@ const IndexTemplate = ({ data, pageContext }: Props) => {
 };
 
 export const query = graphql`
-  query IndexTemplate($postsLimit: Int!, $postsOffset: Int!) {
-    allMarkdownRemark(
+  query IndexTemplate($language: String, $postsLimit: Int!, $postsOffset: Int!) {
+    allMarkdownRemark(        
         limit: $postsLimit,
         skip: $postsOffset,
-        filter: { frontmatter: { template: { eq: "post" }, draft: { ne: true } } },
+        filter: { frontmatter: { template: { eq: "post" }, language: { eq : $language } draft: { ne: true } } },
         sort: { order: DESC, fields: [frontmatter___date] }
       ){
       edges {

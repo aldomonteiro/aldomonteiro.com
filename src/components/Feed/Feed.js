@@ -11,10 +11,10 @@ type Props = {
 };
 
 const Feed = ({ edges }: Props) => {
-  const [language] = useContext(LanguageContext);
+  // const [language] = useContext(LanguageContext);
   return (
     <div className={styles['feed']}>
-      {edges.filter(edge => edge.node.frontmatter.language === language).map(edge => (
+      {edges.map(edge => (
         <div className={styles['feed__item']} key={edge.node.fields.slug}>
           <div className={styles['feed__item-meta']}>
             <time className={styles['feed__item-meta-time']} dateTime={moment(edge.node.frontmatter.date).format('MMMM D, YYYY')}>

@@ -10,7 +10,7 @@ module.exports = {
   googleAnalyticsId: 'UA-13850116-1',
   menu: [
     {
-      label: 'Articles',
+      label: 'All Articles',
       path: '/'
     },
     // {
