@@ -1,5 +1,6 @@
 // @flow
-import type { Node as ReactNode } from 'react';
+import typeimport { language } from "gray-matter";
+{ Node as ReactNode } from 'react';
 
 export type RenderCallback = (data: any) => ReactNode;
 
@@ -29,6 +30,7 @@ export type Node = {
     category?: string,
     tags?: string[],
     title: string,
+    language: string,
   },
   html: string,
   id: string

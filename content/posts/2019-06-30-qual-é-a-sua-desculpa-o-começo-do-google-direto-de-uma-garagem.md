@@ -1,8 +1,8 @@
 ---
 language: pt
 template: post
-title: Qual é a sua desculpa? O começo do Google direto de uma garagem..
-slug: A garagem da Google
+title: Qual é a sua desculpa? O começo do Google
+slug: /posts/qual-e-a-sua-desculpa-o-comeco-do-google
 draft: true
 date: 2019-06-30T16:30:17.158Z
 description: >-

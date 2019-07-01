@@ -34,5 +34,9 @@ module.exports = {
       rss: '#',
       facebook: 'aldomnascimento'
     }
+  },
+  language_flags: {
+    pt: '/flag-pt.svg',
+    en: '/flag-en.svg',
   }
 };

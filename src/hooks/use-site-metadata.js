@@ -29,6 +29,10 @@ const useSiteMetadata = () => {
             subtitle
             copyright
             disqusShortname
+            language_flags {
+              pt
+              en
+            }
           }
         }
       }

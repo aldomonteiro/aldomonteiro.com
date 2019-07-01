@@ -6,20 +6,21 @@ import Copyright from './Copyright';
 import Menu from './Menu';
 import styles from './Sidebar.module.scss';
 import { useSiteMetadata } from '../../hooks';
+import Language from './Language';
 
 type Props = {
   isIndex?: boolean,
 };
 
 const Sidebar = ({ isIndex }: Props) => {
-  const { author, copyright, menu } = useSiteMetadata();
-
+  const { author, copyright, menu, language_flags } = useSiteMetadata();
   return (
     <div className={styles['sidebar']}>
       <div className={styles['sidebar__inner']}>
         <Author author={author} isIndex={isIndex} />
         <Menu menu={menu} />
         <Contacts contacts={author.contacts} />
+        <Language flags={language_flags} />
         <Copyright copyright={copyright} />
       </div>
     </div>

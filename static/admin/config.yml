@@ -7,7 +7,7 @@ public_folder: "/media"
 
 collections:
   - name: "english_posts"
-    label: "Posts"
+    label: "Posts (EN)"
     folder: "content/posts"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
@@ -24,7 +24,7 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
   - name: "portuguese_posts"
-    label: "Posts"
+    label: "Posts (PT)"
     folder: "content/posts"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
