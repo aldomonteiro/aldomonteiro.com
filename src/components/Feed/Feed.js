@@ -1,8 +1,7 @@
 // @flow
-import React, { useContext } from 'react';
+import React from 'react';
 import moment from 'moment';
 import { Link } from 'gatsby';
-import LanguageContext from '../../context/LanguageContext';
 import type { Edges } from '../../types';
 import styles from './Feed.module.scss';
 
