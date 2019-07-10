@@ -1,0 +1,32 @@
+@import '../../../assets/scss/variables';
+@import '../../../assets/scss/mixins';
+
+.container {
+  @include padding-equal(0.5);
+  font-family: $typographic-font-family;
+  border: 1px solid $color-gray-border;
+  font-size: $typographic-small-font-size;
+
+  input {
+    @include margin-bottom(0.5);
+    background: transparent;
+    border: 1px solid $color-gray-border;
+    padding: 0.25em;
+    width: 100%;
+  }
+  
+  .button {
+    background: $color-primary;
+    font-size: $typographic-base-font-size;
+    height: $button-height;
+    text-decoration: none;
+    color: $color-white;
+    width: 50%;
+    // transform: translate(-50%);
+  
+    &:hover,
+    &:focus {
+      cursor: pointer;
+    }
+  }
+}

@@ -18,13 +18,6 @@ const Menu = ({ menu }: Props) => {
       <ul className={styles['menu__list']}>
         {menu.map((item) => (
           <li className={styles['menu__list-item']} key={item.path}>
-            {/* <Link
-              to={item.path}
-              className={styles['menu__list-item-link']}
-              activeClassName={styles['menu__list-item-link--active']}
-            >
-              {item.label}
-            </Link> */}
             <button
               className={styles['link-button']}
               onClick={() => {
