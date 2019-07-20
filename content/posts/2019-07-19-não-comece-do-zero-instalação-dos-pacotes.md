@@ -11,7 +11,10 @@ description: >-
   agilizam o desenvolvimento.
 category: Não Comece do Zero
 tags:
-  - javascript node react fullstack
+  - javascript
+  - node
+  - react
+  - fullstack
 ---
 Nesse post vou instalar os pacotes básicos para executar o backend e deixar uma aplicação mínima funcionando.
 
