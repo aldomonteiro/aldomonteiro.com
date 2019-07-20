@@ -18,7 +18,7 @@ tags:
 ---
 Nesse post vou instalar os pacotes básicos para executar o backend e deixar uma aplicação mínima funcionando.
 
-O nosso backend vai utilizar o *framework* [Express.Js](https://www.expressjs.com) para comunicação entre os serviços e [Mongoose](https://www.mongoose.com) para comunicação com a base de dados que será o [MongoDB](https://www.mongodb.com/).
+Nesse post, vamos utilizar as ferramentas mínimas para a configuração do Node.JS O nosso backend vai utilizar o *framework* [Express.Js](https://www.expressjs.com) para comunicação entre os serviços.
 
 ## Configurando o backend
 
