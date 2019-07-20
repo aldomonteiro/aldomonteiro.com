@@ -18,7 +18,7 @@ tags:
 ---
 Nesse post vou instalar os pacotes básicos para executar o backend e deixar uma aplicação mínima funcionando.
 
-Nesse post, vamos utilizar as ferramentas mínimas para a configuração do Node.JS O nosso backend vai utilizar o *framework* [Express.Js](https://www.expressjs.com) para comunicação entre os serviços.
+Nesse post, vamos utilizar as ferramentas mínimas para a configuração do Node.JS e o *framework* [Express.Js](https://www.expressjs.com) para comunicação entre os serviços.
 
 ## Configurando o backend
 
