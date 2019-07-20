@@ -3,7 +3,7 @@ language: pt
 template: post
 title: '[Não comece do zero] Instalação dos pacotes e configuração dos ambientes'
 slug: nao-comece-do-zero-instalacao
-draft: true
+draft: false
 date: 2019-07-19T14:24:31.660Z
 description: >-
   Essa é o primeiro post da série Não comece do Zero, aonde vou criar um sistema
@@ -74,7 +74,7 @@ Agora, com o yarn, podemos executar:
 yarn dev
 ````
 
-Ele vai executar o script `nodemon src/main.js`
+Ele vai executar o script `nodemon src/main.js` que criamos no `package.json`. Se tudo deu certo, você pode visitar o endereço `localhost:3000` no seu browser que você verá a mensagem *Olá Mundo, e não comece do zero!*.
 
 
 
