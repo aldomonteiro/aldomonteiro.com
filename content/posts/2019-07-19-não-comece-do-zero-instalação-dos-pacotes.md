@@ -15,16 +15,15 @@ description: >-
   Babel.
 category: Node
 tags:
-  - javascript
   - node
-  - react
-  - fullstack
+  - babel
+  - ecmascript
 ---
-O Node.js utiliza a versão ECMAScript conhecida como ES6 (ou ES2015) como padrão. No entanto, alguns browsers já estão utilizando versões mais recentes do ECMAScript e funcionalidades ainda não incorporadas à versão estável da especificação.
+O Node.js desde a versão 10 já conta com todas as funcionalidades previstas na especificação ES2018 e a versão com as *últimas atualizações* recomendada para download - 12.6 - já implementa todos os recursos do ES2019.
 
-É o caso dos comandos `import` e `export`. Para quem está acostumado com *frameworks* JavaScript como React.JS, Angular ou Vue, pode sentir falta do `import` e ter que usar o `require` parece ser um passo pra trás.
+No entanto, uma funcionalidade muito utilizada por frameworks JS ainda não está disponível no Node: os comandos `import` e `export`. Para quem está acostumado com React.JS, Angular ou Vue, pode sentir falta do `import` e ter que usar o `require` parece ser um passo pra trás.
 
-Por isso, vou utilizar neste tutorial uma alternativa leve e performática para trazer essa funcionalidade para o Node.js, sem precisar fazer todas as configurações que o Babel requer.
+Por isso, vou utilizar neste tutorial uma alternativa leve e performática para trazer essa funcionalidade para o Node.js, sem precisar transpilar o código utilizando o Babel.
 
 Ao final, vamos instalar [Express.Js](https://www.expressjs.com) para responder a uma requisição do browser e testar o funcionamento básico do serviço criado.
 
@@ -32,7 +31,7 @@ Ao final, vamos instalar [Express.Js](https://www.expressjs.com) para responder 
 
 Para executar os passos desse tutorial é preciso ter instalado o Node, versão 10 ou superior, e o npm.
 
-Node.js na versão 10 utiliza as especificações do ES6 (ou ES2015), mas não te deixa importar e exportar módulos com os comandos `import/export`. Para resolver esse problema e poder utilizar a mesma sintaxe tanto no *backend* quanto no *frontend*, vou utilizar o [esm](https://github.com/standard-things/esm) no backend.
+Para habilitar os comandos `import/export` para importar e exportar módulos tal como é feito no React.js por exemplo, e poder utilizar a mesma sintaxe tanto no *backend* quanto no *frontend*, vou utilizar o [esm](https://github.com/standard-things/esm) no backend.
 
 Vamos utilizar o yarn para inicializar o projeto, package.json e adicionar o `esm`:
 
@@ -42,7 +41,7 @@ yarn create esm
 
 Esse comando vai fazer algumas perguntas para criar os arquivos iniciais. Pressione <Enter> para todas as elas e aceitar os valores padrão.
 
-Esse comando vai criar alguns arquivos para nós, entre eles o `package.json`, `index.js` e `main.js`. O arquivo `package.json` lista todas as dependências do projeto e os outros 2 são criados pelo módulo `esm`.
+Alguns arquivos serão criados para nós, entre eles o `package.json`, `index.js` e `main.js`. O arquivo `package.json` lista todas as dependências do projeto e os outros 2 são criados pelo módulo `esm`.
 
 Vamos criar um diretório `src` para separar os arquivos JavaScript dos arquivos de configuração, execute esses comandos:
 
@@ -85,10 +84,12 @@ import express from 'express';
 const app = express()
 const port = 3000
 
-app.get('/', (req, res) => res.send('Olá Mundo! E Não Comece do Zero!'))
+app.get('/', (req, res) => res.send('Hello World!'))
 
 app.listen(port, () => console.log(`APP listening on port ${port}!`));
 ```
+
+Veja que estamos utilizando o comando `import express from 'express'`, comando esse que não seria possível no Node padrão. Teríamos que usar o comando `require`. Mas, para nossa alegria, o `esm` interpreta o comando e executa a importação do módulo corretamente.
 
 Agora, com o yarn, podemos executar:
 
@@ -96,5 +97,5 @@ Agora, com o yarn, podemos executar:
 yarn dev
 ````
 
-Ele vai executar o script `nodemon src/main.js` que criamos no `package.json`. Se tudo deu certo, você pode visitar o endereço `localhost:3000` no seu browser que você verá a mensagem *Olá Mundo, e não comece do zero!*.
+Ele vai executar o script `nodemon src/main.js` que criamos no `package.json`. Se tudo deu certo, você pode visitar o endereço `localhost:3000` no seu browser que você verá a mensagem *Hello World!*.
 
