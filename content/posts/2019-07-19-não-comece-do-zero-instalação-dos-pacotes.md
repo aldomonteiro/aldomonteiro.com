@@ -8,11 +8,10 @@ slug: /utilizar-import-export-node-sem-babel
 draft: false
 date: 2019-07-19T14:24:31.660Z
 description: >-
-  O Node.js utiliza a especificação ES6 do JavaScript que *ainda* não incorporou
-  algumas funcionalidades já utilizadas por bibliotecas como o React, tais como
-  a capacidade de fazer import e export de módulos. Nesse post, vou te mostrar
-  como incorporar essa característica sem precisar utilizar um transpiler como o
-  Babel.
+  Nem todas as funcionalidades já utilizadas por bibliotecas como o React estão
+  disponíveis no Node, tais como a capacidade de fazer import e export de
+  módulos. Nesse post, vou te mostrar como incorporar essa característica sem
+  precisar utilizar um transpiler como o Babel.
 category: Node
 tags:
   - node
@@ -21,9 +20,9 @@ tags:
 ---
 O Node.js desde a versão 10 já conta com todas as funcionalidades previstas na especificação ES2018 e a versão com as *últimas atualizações* recomendada para download - 12.6 - já implementa todos os recursos do ES2019.
 
-No entanto, uma funcionalidade muito utilizada por frameworks JS ainda não está disponível no Node: os comandos `import` e `export`. Para quem está acostumado com React.JS, Angular ou Vue, pode sentir falta do `import` e ter que usar o `require` parece ser um passo pra trás.
+No entanto, uma funcionalidade muito utilizada por frameworks JS ainda não está disponível no Node: os comandos `import` e `export`. Para quem está acostumado com React, Angular ou Vue, pode sentir falta do `import` e ter que usar o `require` parece ser um passo para trás.
 
-Por isso, vou utilizar neste tutorial uma alternativa leve e performática para trazer essa funcionalidade para o Node.js, sem precisar transpilar o código utilizando o Babel.
+Por isso, vou utilizar neste tutorial uma alternativa leve e performática para trazer essa funcionalidade para o Node, sem precisar transpilar o código utilizando o Babel.
 
 Ao final, vamos instalar [Express.Js](https://www.expressjs.com) para responder a uma requisição do browser e testar o funcionamento básico do serviço criado.
 
@@ -99,3 +98,8 @@ yarn dev
 
 Ele vai executar o script `nodemon src/main.js` que criamos no `package.json`. Se tudo deu certo, você pode visitar o endereço `localhost:3000` no seu browser que você verá a mensagem *Hello World!*.
 
+##Conclusão
+
+O Babel já foi uma importante ferramenta para habilitar as especificações mais modernas do JS no Node. No entanto, as versões mais recentes do Node já incorporam por padrão essas especificações e não é mais preciso uma ferramenta que adiciona vários passos ao processo de desenvolvimento, que é o caso do *transpiling* feito pelo Babel.
+
+Uma das poucas funcionalidades não coberta na ES implementada pelo Node e muito utilizada no browser é a capacidade de importar/exportar módulos. O pacote `esm` cobre esse *gap* com a inclusão dos comandos `import/export` sem pesar na performance da aplicação.
