@@ -1,9 +1,7 @@
 ---
 language: pt
 template: post
-title: >-
-  [Não comece do zero!] Como ter um sistema de autenticação para a sua aplicação
-  Web serverless com o Auth0?
+title: Como ter um sistema de autenticação para a sua aplicação Web serverless com o Auth0?
 slug: /autenticacao-serverless-com-auth0
 draft: true
 date: 2019-07-21T22:11:16.758Z
