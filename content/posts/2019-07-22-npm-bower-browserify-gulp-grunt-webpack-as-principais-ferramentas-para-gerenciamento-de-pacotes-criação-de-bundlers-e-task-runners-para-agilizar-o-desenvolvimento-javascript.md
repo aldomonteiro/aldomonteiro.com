@@ -6,7 +6,7 @@ title: >-
   gerenciamento de pacotes, criação de bundlers e task runners para agilizar o
   desenvolvimento JavaScript.
 slug: /post/package-managers-bundlers-task-runners
-draft: true
+draft: false
 date: 2019-07-22T21:24:50.452Z
 description: >-
   NPM? Bower? Browserify? Gulp? Grunt? Webpack? 
