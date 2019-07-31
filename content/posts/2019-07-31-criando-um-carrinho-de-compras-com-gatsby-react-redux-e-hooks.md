@@ -3,7 +3,7 @@ language: pt
 template: post
 title: 'Criando um carrinho de compras com Gatsby, React, Redux e Hooks'
 slug: /shoppingcart-react-redux-hooks
-draft: true
+draft: false
 date: 2019-07-31T18:46:51.000Z
 description: >-
   Nesse artigo vou mostrar como criar um carrinho de compras utilizando React e
