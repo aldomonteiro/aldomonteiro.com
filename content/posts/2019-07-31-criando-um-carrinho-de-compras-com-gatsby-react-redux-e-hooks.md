@@ -49,6 +49,7 @@ Se tudo deu certo, você pode acessar a pasta e executar o site recém criado:
 cd shopping-cart; gatsby develop
 ```
 
+Acessando o endereço `localhost:8000` você verá a página inicial do Gatsby em execução:
 
 
 
