@@ -1,7 +1,7 @@
 ---
 language: pt
 template: post
-title: 'Conhecendo uma alternativa ao React-Router: o Reach Router'
+title: 'Conheça uma alternativa ao React-Router: o Reach Router'
 slug: /react-reach-router-tutorial
 draft: false
 date: 2019-08-01T17:55:09.597Z
