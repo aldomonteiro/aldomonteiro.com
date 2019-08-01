@@ -1,17 +1,20 @@
 ---
 language: pt
 template: post
-title: 'Gatsby.JS - Um poderoso gerador de sites estáticos'
+title: Gatsby.JS - Um poderoso gerador de sites estáticos
 slug: /react-gatsbyjs
-draft: true
+draft: false
 date: 2019-08-01T17:55:09.597Z
 description: >-
-  Você está pensando em usar o Gatsby.js como gerador de site estático para o seu site ou aplicativo da web? 
-  Saiba mais sobre todos os benefícios de usar o Gatsby.Js com o React ...
+  Você está pensando em usar o Gatsby.js como gerador de site estático para o
+  seu site ou aplicativo da web?  Saiba mais sobre todos os benefícios de usar o
+  Gatsby.Js com o React ...
 category: react
 tags:
   - react
   - gatsby
+  - pwa
+  - static sites
 ---
 Não muito tempo atrás, muitos argumentavam contra *frameworks* como React, Angular ou Vue para o seu site pessoal. Desde então, ferramentas construídas sobre esses frameworks - como o [Gatsby.js](https://www.gatsbyjs.org/) para o React.js - surgiram para tornar o desenvolvimento de sites estáticos mais simples. 
 
