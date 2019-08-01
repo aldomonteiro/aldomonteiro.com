@@ -1,7 +1,7 @@
 ---
 language: pt
 template: post
-title: Como utilizar os comandos import e export no Node.js sem precisar utilizar Babel
+title: Como utilizar os comandos import e export no Node.js sem precisar do Babel
 slug: /utilizar-import-export-node-sem-babel
 draft: false
 date: 2019-07-19T14:24:31.660Z
