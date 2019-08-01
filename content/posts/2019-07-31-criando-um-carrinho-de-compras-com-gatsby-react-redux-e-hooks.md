@@ -3,7 +3,7 @@ language: pt
 template: post
 title: 'Criando um carrinho de compras com Gatsby, React, Redux e Hooks'
 slug: /shoppingcart-react-redux-hooks
-draft: false
+draft: true
 date: 2019-07-31T18:46:51.000Z
 description: >-
   Nesse artigo vou mostrar como criar um carrinho de compras utilizando React e
@@ -73,7 +73,7 @@ Nesse passo, podemos configurar o Redux para armazenar o estado das operações 
 
 ```jsx
 import { createStore } from 'redux';
-import rootReducer from '../reducers';
+import rootReducer from 'reducer';
 
 export default function configureStore () {
   const store = createStore(
@@ -85,6 +85,41 @@ export default function configureStore () {
 ```
 
 Aqui criamos a `store` a partir da função `createStore` do `redux` e um `rootReducer` que vamos criar logo em seguida. Além disso, estamos configurando a extensão do Chrome Redux DevTools que mostrará os dados armazenados no `store` no seu browser.
+
+Vamos criar uma arquivo chamado `reducer.js` na pasta `src` e colar o seguinte código nele:
+
+```js
+// src/reducer.js
+const defaultState = [];
+
+export default (previousState = defaultState, { type }) => {
+  switch (type) {
+    default:
+      return previousState;
+  }
+}
+```
+
+Essa função recebe 2 parâmetros: o estado anterior (*previousState*) e um objeto com a propriedade *type*. A propriedade *type* deve conter a ação que foi disparada pelo sistema e que vão atualizar a *store*.
+
+Nossa primeira ação será incluir um novo item no carrinho de compras. Vamos chamá-la de ADD_ITEM e implementá-la dentro do arquivo `reducer.js`:
+
+```js
+const defaultState = [];
+
+export default (previousState = defaultState, { type, payload }) => {
+  switch (type) {
+    case 'ADD_ITEM':
+      return {
++        ...previousState,
+        items: [payload, ...previousState.items]
+      }
+    default:
+      return previousState;
+  }
+}
+``
+
 
 
 
