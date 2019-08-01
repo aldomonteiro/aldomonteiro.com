@@ -15,7 +15,7 @@ tags:
   - reach-router
   - react-router
 ---
-Nesse tutorial de 5 minutos vou mostrar como usar o [REACH Router] (https://Reach.Tech/router/), uma alternativa ao tradicional e onipresente [React router] (/REACT-router/).
+Nesse tutorial de 5 minutos vou mostrar como usar o [REACH Router](https://Reach.Tech/router/), uma alternativa ao tradicional e onipresente [React router](/REACT-router/).
 
 ## Instalação
 
