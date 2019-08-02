@@ -1,7 +1,9 @@
 ---
 language: pt
 template: post
-title: Gatsby.JS - Um poderoso gerador de sites estáticos
+title: >-
+  Uma alternativa ao Wordpress: Gatsby.js, um poderoso, rápido e moderno gerador
+  de sites estáticos baseado no React.js
 slug: /react-gatsbyjs
 draft: false
 date: 2019-08-01T17:55:09.597Z
@@ -9,7 +11,7 @@ description: >-
   Você está pensando em usar o Gatsby.js como gerador de site estático para o
   seu site ou aplicativo da web?  Saiba mais sobre todos os benefícios de usar o
   Gatsby.Js com o React ...
-category: react
+category: Gatsby.js
 tags:
   - react
   - gatsby
